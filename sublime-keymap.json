@@ -1,0 +1,89 @@
+[
+    {
+        "keys": ["ctrl+7"],
+        "command": "toggle_comment",
+        "args": { "block": false }
+    },
+
+    {
+        "keys": ["ctrl+shift+7"],
+        "command": "toggle_comment",
+        "args": { "block": true }
+    },
+
+    {
+        "keys": ["ctrl+shift+l"],
+        "command": "list_open_files"
+    },
+
+    {
+        "keys": ["ctrl+shift+i"],
+        "command": "js_prettier"
+    },
+
+    {
+        "keys": ["alt+down"],
+        "command": "swap_line_down"
+    },
+
+    {
+        "keys": ["alt+up"],
+        "command": "swap_line_up"
+    },
+
+    {
+        "keys": ["alt+d"],
+        "command": "duplicate_line"
+    },
+
+    {
+        "keys": ["ctrl+shift+up"],
+        "command": "select_lines",
+        "args": { "forward": false }
+    },
+
+    {
+        "keys": ["ctrl+shift+down"],
+        "command": "select_lines",
+        "args": { "forward": true }
+    },
+
+    {
+        "keys": ["ctrl+up"],
+        "command": "scroll_lines",
+        "args": { "amount": 3.0 }
+    },
+
+    {
+        "keys": ["ctrl+down"],
+        "command": "scroll_lines",
+        "args": { "amount": -3.0 }
+    },
+
+    {
+        "keys": ["up"],
+        "command": "move",
+        "args": { "by": "lines", "forward": false }
+    },
+
+    {
+        "keys": ["down"],
+        "command": "move",
+        "args": { "by": "lines", "forward": true }
+    },
+    {
+        "keys": ["shift+delete"],
+        "command": "run_macro_file",
+        "args": { "file": "res://Packages/Default/Delete Line.sublime-macro" }
+    },
+    {
+        "keys": ["ctrl+left"],
+        "command": "move",
+        "args": { "by": "subwords", "forward": false }
+    },
+    {
+        "keys": ["ctrl+right"],
+        "command": "move",
+        "args": { "by": "subword_ends", "forward": true }
+    }
+]
